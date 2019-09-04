@@ -1,6 +1,5 @@
 import combineReducers from './combineReducers';
 import connect from './connect';
-import createStore from './createStore';
 import Provider from './Provider';
 import Context from './Context';
 import warning from './utils/warning';
@@ -28,7 +27,6 @@ if (
 export {
   combineReducers,
   connect,
-  createStore,
   Provider,
   Context
 }
