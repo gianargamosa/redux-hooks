@@ -1,6 +1,6 @@
 {
   "name": "@agargamosa/redux-hooks",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Experimental redux implementations for react-hooks",
   "main": "./src/index.js",
   "scripts": {
