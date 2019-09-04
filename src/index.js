@@ -1,8 +1,9 @@
-import combineReducers from './src/combineReducers'
-import connect from './src/connect'
-import createStore from './src/createStore'
-import Provider from './src/Provider'
-import Context from './src/Context'
+import combineReducers from './combineReducers';
+import connect from './connect';
+import createStore from './createStore';
+import Provider from './Provider';
+import Context from './Context';
+import warning from './utils/warning';
 
 /*
  * This is a dummy function to check if the function name has been altered by minification.

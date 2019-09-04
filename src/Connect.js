@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import Context from './Context';
 
-const connect = (mapState, mapDispatch) => {
+export default connect(mapState, mapDispatch) {
   return WrappedComponent => {
     return () => {
       const { store, dispatch } = useContext(Context);
@@ -11,5 +11,3 @@ const connect = (mapState, mapDispatch) => {
     };
   };
 };
-
-export default connect;
